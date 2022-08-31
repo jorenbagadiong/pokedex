@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Pokemon";
-  font-style: normal;
-  src: local("Pokemon"), url("assets/fonts/PKMN-RBYGSC.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,9 +8,9 @@
 
 html,
 body {
-  font-family: "Pokemon";
+  font-family: "Quicksand";
 }
 
-p {
-  text-transform: uppercase;
+span {
+  text-transform: capitalize;
 }

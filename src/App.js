@@ -28,8 +28,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/Pokedex" element={<PokemonList pokemons={pokemons} />} />
-        <Route path="/Pokedex/pokemon/" element={<Pokemon />}>
+        <Route path="/" element={<PokemonList pokemons={pokemons} />} />
+        <Route path="/pokemon/" element={<Pokemon />}>
           <Route path=":name" element={<Pokemon />} />
         </Route>
       </Routes>
