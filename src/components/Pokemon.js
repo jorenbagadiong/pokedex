@@ -25,10 +25,6 @@ export default function Pokemon() {
     getStoredData();
   }, [url, setData]);
 
-  console.log("pokemon: ", data);
-  // console.log("types: ", data?.types);
-  // console.log("abilities: ", data?.abilities);
-
   return (
     <Container fluid className={classes.container}>
       <Row>
